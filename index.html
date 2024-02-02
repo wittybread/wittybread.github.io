@@ -37,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '481485786';
+    var serviceWorkerVersion = '859104554';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -99,6 +99,26 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+  </script>
+  <script defer src="main.dart.js"></script>
+  <script>
+
+      function testFun(){
+        console.log('tessss')
+        window.android.getAfResult();
+      }
+
+      function testFun2(){
+        console.log('tessss2')
+        android.getAfResult();
+      }
+
+       function getAfResult(){
+        console.log('hhhhhhhh')
+        var result= android.getAfResult();
+        return result;
+      }
+
   </script>
 </body>
 </html>
