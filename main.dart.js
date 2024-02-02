@@ -32929,7 +32929,8 @@ return new A.qn(new A.qA(null),A.a61(null,B.eF),null)}}
 A.qA.prototype={
 az(){return new A.EN(A.a42(40),new A.xT(A.a5T(!1,t.z)),B.m)}}
 A.EN.prototype={
-aW(){this.bv()},
+aW(){this.bv()
+window.location.assign("https://www.baidu.com")},
 nD(a){return this.QE(a)},
 QE(a){var s=0,r=A.a2(t.z),q=this,p
 var $async$nD=A.a3(function(b,c){if(b===1)return A.a_(c,r)
