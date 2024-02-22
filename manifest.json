@@ -1,6 +1,6 @@
 {
-    "name": "cube",
-    "short_name": "cube",
+    "name": "animalcube",
+    "short_name": "animalcube",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
